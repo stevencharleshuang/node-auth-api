@@ -1,0 +1,25 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "JWT Testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevencharleshuang/node-auth-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevencharleshuang/node-auth-api/issues"
+  },
+  "homepage": "https://github.com/stevencharleshuang/node-auth-api#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "nodemon": "^1.17.5"
+  }
+}
